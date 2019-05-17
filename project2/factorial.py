@@ -1,4 +1,7 @@
-num = 0
-while num < 100:
-    num += 1
-    print(num)
+num = 5
+fact = 1
+res = 1
+while fact < num:
+    fact += 1
+    res = res * fact
+print(res)
