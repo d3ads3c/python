@@ -1,5 +1,5 @@
 # print 3time "Hello world"
-text ="hello world"
+text = "hello world"
 text_dup = text * 3
 print(text_dup)
 # ------------

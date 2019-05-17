@@ -1,9 +1,9 @@
-height = 175
-weight = 70
-bmi_1 = (height * 5) / weight
-if bmi_1 > 5:
-    print("under rate")
-elif 5 < bmi_1 < 7:
+height = 1.75
+weight = 90
+bmi = weight / (height * height)
+if bmi < 18:
+    print("under - weight")
+elif 18 <= bmi < 25:
     print("normal")
-elif bmi_1 > 7:
-    print("over rate")
+else:
+    print("over-weight")
