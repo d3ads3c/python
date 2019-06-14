@@ -1,6 +1,9 @@
-def word_split(text):
+def word_split(text, ignore=False):
+    if ignore == True:
+        text.lower()
     words = text.split()
-    print(set(words))
+    return set(words)
 
 
 word_split("hello darkness my my old friend")
+
